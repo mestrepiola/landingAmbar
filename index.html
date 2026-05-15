@@ -1,0 +1,353 @@
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Âmbar — Arte para ambientes autênticos</title>
+
+  <meta
+    name="description"
+    content="Arte que transforma espaços em experiências. Conheça a Âmbar e faça parte do início."
+  />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link rel="icon" type="image/png" href="img/favicon.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&family=Montserrat:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Cormorant Garamond', serif;
+      background: #f4efe7;
+      color: #5d4638;
+      margin: 0;
+      padding: 0;
+    }
+
+    .font-montserrat {
+      font-family: 'Inter', sans-serif;
+    }
+
+    .font-montserrat {
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    .hero-bg {
+      background-image: url('img/hero_background.png');
+      background-size: cover;
+      background-position: center;
+    }
+
+    input:focus {
+      outline: none;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- HERO -->
+  <section class="relative min-h-screen overflow-hidden hero-bg">
+    <div class="absolute inset-0 bg-black/50"></div>
+
+    <div class="relative z-10 max-w-7xl mx-auto px-6 lg:px-12 py-10 flex items-center min-h-screen">
+      <div class="max-w-xl text-white">
+        <div class="mb-14">
+          <img src="img/ambar_logo.svg" alt="Âmbar" class="h-12 brightness-0 invert" />
+        </div>
+
+        <h1 class="text-4xl md:text-6xl leading-tight mb-8 max-w-lg">
+          Arte para ambientes autênticos.
+        </h1>
+
+        <div class="w-20 h-[2px] bg-[#c9932d] mb-10"></div>
+
+        <p class="text-lg md:text-2xl leading-relaxed text-white/90 max-w-xl mb-12 font-montserrat font-extralight">
+          Inspirada na arte, na autenticidade e nas atmosferas que transformam
+          espaços em presença.
+        </p>
+
+        <div class="max-w-md space-y-3">
+          <input
+            id="heroEmail"
+            type="email"
+            placeholder="Seu email"
+            class="w-full h-14 bg-white/15 border border-white/20 px-5 text-white placeholder:text-white/70 backdrop-blur-sm"
+          />
+
+          <button id="heroBtn" class="w-full h-14 bg-[#b67b10] hover:bg-[#a16e0f] transition text-white tracking-wide text-sm uppercase font-montserrat">
+            Entrar para a lista
+          </button>
+
+          <p id="heroMsg" class="text-sm text-white/75 font-montserrat">
+            Os inscritos terão uma condição especial na estreia da Âmbar.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INSPIRAÇÃO -->
+  <section class="bg-[#f8f4ee] py-24 px-6 lg:px-12">
+    <div class="max-w-6xl mx-auto text-center">
+      <h2 class="text-4xl md:text-5xl mb-20 text-[#7a7156]">
+        O que nos inspira
+      </h2>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-0">
+        <div class="px-8 md:border-r border-[#ddd3c6]">
+          <div class="mb-6 flex justify-center">
+            <img src="img/arte_brasileira.svg" alt="Arte brasileira" class="h-6 w-auto brightness-0 sepia-[.25] saturate-[.5] hue-rotate-[10deg]" />
+          </div>
+
+          <h3 class="text-2xl mb-5 text-[#6a4d3f]">Arte brasileira</h3>
+
+          <p class="text-[#8b7b6d] leading-8 font-montserrat text-base">
+            Texturas, formas e referências que carregam identidade e sensibilidade estética.
+          </p>
+        </div>
+
+        <div class="px-8 md:border-r border-[#ddd3c6]">
+          <div class="mb-6 flex justify-center">
+            <img src="img/atmosfera.svg" alt="Atmosfera" class="h-6 w-auto brightness-0 sepia-[.25] saturate-[.5] hue-rotate-[10deg]" />
+          </div>
+
+          <h3 class="text-2xl mb-5 text-[#6a4d3f]">Atmosfera</h3>
+
+          <p class="text-[#8b7b6d] leading-8 font-montserrat text-base">
+            Ambientes não são apenas vistos, eles são sentidos.
+          </p>
+        </div>
+
+        <div class="px-8">
+          <div class="mb-6 flex justify-center">
+            <img src="img/leaves.svg" alt="Memórias" class="h-6 w-auto brightness-0 sepia-[.25] saturate-[.5] hue-rotate-[10deg]" />
+          </div>
+
+          <h3 class="text-2xl mb-5 text-[#6a4d3f]">Memórias</h3>
+
+          <p class="text-[#8b7b6d] leading-8 font-montserrat text-base">
+            Casas guardam histórias, presença e afeto. A arte eterniza esse sentimento.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALERIA -->
+  <section class="px-6 lg:px-12 pb-24 bg-[#f8f4ee]">
+    <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="aspect-square overflow-hidden group">
+        <img
+          src="img/carr_01.png"
+          alt="Ambiente decorado"
+          class="w-full h-full object-cover group-hover:scale-105 transition duration-700"
+        />
+      </div>
+
+      <div class="aspect-square overflow-hidden group">
+        <img
+          src="img/carr_02.png"
+          alt="Ambiente decorado"
+          class="w-full h-full object-cover group-hover:scale-105 transition duration-700"
+        />
+      </div>
+
+      <div class="aspect-square overflow-hidden group">
+        <img
+          src="img/carr_03.png"
+          alt="Ambiente decorado"
+          class="w-full h-full object-cover group-hover:scale-105 transition duration-700"
+        />
+      </div>
+    </div>
+  </section>
+
+  <!-- EM BREVE -->
+  <section class="bg-white py-28 px-6 lg:px-12 text-center">
+    <div class="max-w-3xl mx-auto">
+      <p class="uppercase tracking-[0.35em] text-[#b67b10] text-sm mb-6 font-montserrat">
+        Em breve
+      </p>
+
+      <h2 class="text-5xl text-[#6a4d3f] mb-8">Âmbar.</h2>
+
+      <div class="w-20 h-[2px] bg-[#c9932d] mx-auto mb-10"></div>
+
+      <p class="text-[#8b7b6d] text-xl leading-10 font-montserrat max-w-xl mx-auto">
+        Arte que transforma espaços em experiências.
+      </p>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="bg-[#efe5d3] py-24 px-6 lg:px-12">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-5xl text-[#5f4334] mb-8">
+        Faça parte do início.
+      </h2>
+
+      <div class="w-20 h-[2px] bg-[#c9932d] mx-auto mb-10"></div>
+
+      <p class="text-[#7b6a5c] text-xl leading-9 mb-14 font-montserrat max-w-2xl mx-auto">
+        Os inscritos terão uma condição especial na estreia da Âmbar.
+      </p>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+        <input
+          id="ctaNome"
+          type="text"
+          placeholder="Seu nome"
+          class="h-14 border border-[#c8b8a4] bg-transparent px-5 font-montserrat"
+        />
+
+        <input
+          id="ctaEmail"
+          type="email"
+          placeholder="Seu email"
+          class="h-14 border border-[#c8b8a4] bg-transparent px-5 font-montserrat"
+        />
+      </div>
+
+      <button id="ctaBtn" class="w-full max-w-4xl h-14 bg-[#b67b10] hover:bg-[#9b690d] transition text-white uppercase tracking-wide text-sm font-montserrat">
+        Entrar para a lista
+      </button>
+
+      <p id="ctaMsg" class="text-sm text-[#7b6a5c] mt-4 font-montserrat"></p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-[#efe5d3] border-t border-[#d8cab8] px-6 lg:px-12 py-8">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6 text-sm text-[#7c6d5f] font-montserrat">
+      <div>
+        <img src="img/ambar_logo.svg" alt="Âmbar" class="h-8 w-auto brightness-0 invert-[.25] sepia-[.15] saturate-[.8] hue-rotate-[350deg]" />
+      </div>
+
+      <p>Todos os direitos reservados.</p>
+
+      <a href="#" class="hover:opacity-70 transition flex items-center gap-2">
+        <span>Siga a Âmbar</span>
+        <img src="img/instagram.svg" alt="Instagram" class="h-5 w-auto" />
+      </a>
+    </div>
+  </footer>
+
+  <script>
+    // 🔧 IMPORTANTE: Substitua pela sua URL do Sheet.best
+    const SHEET_BEST_URL = 'https://api.sheetbest.com/sheets/3e7e4c88-f64b-4a33-9aa4-e3498741439d';
+
+    // Função para salvar nome e email
+    async function salvarLead(nome, email) {
+      const data = {
+        nome: nome || 'não informado',
+        email: email,
+        data_cadastro: new Date().toLocaleString('pt-BR')
+      };
+
+      const response = await fetch(SHEET_BEST_URL, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(data)
+      });
+
+      return response.ok;
+    }
+
+    // Função para mostrar mensagem temporária
+    function mostrarMensagem(elementoId, mensagem, sucesso = true) {
+      const msgElement = document.getElementById(elementoId);
+      if (msgElement) {
+        msgElement.innerHTML = mensagem;
+        msgElement.style.color = sucesso ? '#4caf50' : '#f44336';
+        setTimeout(() => {
+          msgElement.innerHTML = sucesso ? '✅ Cadastro realizado com sucesso!' : '';
+          if (!sucesso) msgElement.style.color = '#7b6a5c';
+        }, 3000);
+      }
+    }
+
+    // Cadastro da HERO (apenas email)
+    document.getElementById('heroBtn')?.addEventListener('click', async () => {
+      const email = document.getElementById('heroEmail').value.trim();
+      const msgElement = document.getElementById('heroMsg');
+
+      if (!email) {
+        msgElement.innerHTML = '❌ Por favor, insira seu email.';
+        msgElement.style.color = '#ffaaaa';
+        setTimeout(() => {
+          msgElement.innerHTML = 'Os inscritos terão uma condição especial na estreia da Âmbar.';
+          msgElement.style.color = 'rgba(255,255,255,0.75)';
+        }, 3000);
+        return;
+      }
+
+      if (!email.includes('@') || !email.includes('.')) {
+        msgElement.innerHTML = '❌ Email inválido.';
+        msgElement.style.color = '#ffaaaa';
+        return;
+      }
+
+      // Validação extra com regex
+      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      if (!emailRegex.test(email)) {
+        msgElement.innerHTML = '❌ Email inválido.';
+        msgElement.style.color = '#ffaaaa';
+        return;
+      }
+
+      const sucesso = await salvarLead('', email);
+      if (sucesso) {
+        msgElement.innerHTML = '✅ Cadastro realizado! Você receberá novidades em breve.';
+        msgElement.style.color = '#a5d6a7';
+        document.getElementById('heroEmail').value = '';
+      } else {
+        msgElement.innerHTML = '❌ Erro ao cadastrar. Tente novamente.';
+        msgElement.style.color = '#ffaaaa';
+      }
+    });
+
+    // Cadastro do CTA (nome + email)
+    document.getElementById('ctaBtn')?.addEventListener('click', async () => {
+      const nome = document.getElementById('ctaNome').value.trim();
+      const email = document.getElementById('ctaEmail').value.trim();
+      const msgElement = document.getElementById('ctaMsg');
+
+      if (!nome) {
+        mostrarMensagem('ctaMsg', '❌ Por favor, insira seu nome.', false);
+        return;
+      }
+
+      if (!email) {
+        mostrarMensagem('ctaMsg', '❌ Por favor, insira seu email.', false);
+        return;
+      }
+
+      if (!email.includes('@') || !email.includes('.')) {
+        mostrarMensagem('ctaMsg', '❌ Email inválido.', false);
+        return;
+      }
+
+      // Validação extra com regex
+      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      if (!emailRegex.test(email)) {
+        mostrarMensagem('ctaMsg', '❌ Email inválido.', false);
+        return;
+      }
+
+      const sucesso = await salvarLead(nome, email);
+      if (sucesso) {
+        mostrarMensagem('ctaMsg', '✅ Cadastro realizado! Você receberá novidades em breve.', true);
+        document.getElementById('ctaNome').value = '';
+        document.getElementById('ctaEmail').value = '';
+      } else {
+        mostrarMensagem('ctaMsg', '❌ Erro ao cadastrar. Tente novamente.', false);
+      }
+    });
+  </script>
+</body>
+</html>
